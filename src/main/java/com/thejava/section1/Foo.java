@@ -1,9 +1,7 @@
 package com.thejava.section1;
 
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
+import java.util.Arrays;
+import java.util.function.*;
 
 public class Foo {
 
@@ -15,7 +13,7 @@ public class Foo {
      *    - 순수 함수(Pure function)
      *    - 고차 함수(Higher-Order function)
      *    - 불변성
-     *    link: https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
+     *    link: 스https://docs.oracle.com/javase/8/docs/api/java/util/function/package-summary.html
      */
     public static void main(String[] args) {
 
@@ -36,6 +34,19 @@ public class Foo {
         Supplier<Integer> get10 = () -> 10;
 
         Predicate<String> startsWithThe = (s) -> s.startsWith("The");
+
+        // 메서드 레퍼런스
+        Function<Integer, String> toString = String::valueOf;
+        UnaryOperator<String> hi = Greeting::hello;
+
+        Greeting greeting = new Greeting();
+        UnaryOperator<String> hello = greeting::hi;
+        Function<String, Greeting> newGreeting = Greeting::new;
+        Supplier<Greeting> newGreeting2 = Greeting::new;
+
+        Arrays.sort(new Integer[]{1, 5, 2, 4, 3}, Integer::compareTo);
+        String[] names = {"sssss", "abcddd", "abcde"};
+        Arrays.sort(names, String::compareToIgnoreCase);
 
     }
 
