@@ -1,4 +1,4 @@
-package com.thejava;
+package com.thejava.section1;
 
 @FunctionalInterface
 public interface RunSomething {
