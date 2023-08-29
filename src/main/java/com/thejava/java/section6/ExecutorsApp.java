@@ -1,4 +1,4 @@
-package com.thejava.section6;
+package com.thejava.java.section6;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

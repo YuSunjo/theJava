@@ -1,4 +1,4 @@
-package com.thejava.section6;
+package com.thejava.java.section6;
 
 public class ThreadApp {
     public static void main(String[] args) {

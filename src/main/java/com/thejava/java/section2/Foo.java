@@ -1,4 +1,4 @@
-package com.thejava.section2;
+package com.thejava.java.section2;
 
 import java.util.ArrayList;
 import java.util.Comparator;

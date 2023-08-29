@@ -1,4 +1,4 @@
-package com.thejava.section6;
+package com.thejava.java.section6;
 
 import java.util.Arrays;
 import java.util.List;

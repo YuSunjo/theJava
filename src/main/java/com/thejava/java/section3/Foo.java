@@ -1,4 +1,4 @@
-package com.thejava.section3;
+package com.thejava.java.section3;
 
 import java.util.ArrayList;
 import java.util.List;

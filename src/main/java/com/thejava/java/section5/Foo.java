@@ -1,4 +1,4 @@
-package com.thejava.section5;
+package com.thejava.java.section5;
 
 import java.time.*;
 

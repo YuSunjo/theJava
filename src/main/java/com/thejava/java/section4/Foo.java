@@ -1,4 +1,4 @@
-package com.thejava.section4;
+package com.thejava.java.section4;
 
 import java.util.ArrayList;
 import java.util.List;
